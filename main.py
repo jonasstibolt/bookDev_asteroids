@@ -13,6 +13,7 @@ def main():
 	print(f"Screen height: {constants.SCREEN_HEIGHT}")
 	while True:
 		screen.fill((0, 0, 0))
+		player_obj.update(dt)
 		player_obj.draw(screen)
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
