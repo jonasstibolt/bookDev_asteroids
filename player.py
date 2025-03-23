@@ -44,7 +44,7 @@ class Player(circleshape.CircleShape):
             if self.shot_timer <= 0:
                 self.shoot()
                 self.shot_timer += constants.SHOT_COOLDOWN
-                print("Pew pew!")
+                # print("Pew pew!")
         self.shot_timer -= dt
         if self.shot_timer < 0:
             self.shot_timer = 0
