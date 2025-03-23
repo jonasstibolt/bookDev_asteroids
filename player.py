@@ -1,4 +1,3 @@
-import pygame.draw
 import circleshape, constants, pygame
 
 class Player(circleshape.CircleShape):
